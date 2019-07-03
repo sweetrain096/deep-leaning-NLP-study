@@ -1,0 +1,15 @@
+import pandas as pd
+data = [['name', 'age'], ['A', 20], ['B', 29], ['c', 24], ['d', 26]]
+data = pd.DataFrame(data)
+
+print(data)
+
+data = [['A', 20], ['B', 29], ['c', 24], ['d', 26]]
+df = pd.DataFrame(data)
+
+print(df)
+
+data = {'name': ['A', 'B', 'c', 'd'],
+        'age': [20, 29, 24, 26]}
+df = pd.DataFrame(data)
+print(df)
